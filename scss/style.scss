@@ -1,0 +1,176 @@
+body {
+  align-items: center;
+  background: #EEEEEE;
+  font-family: Lato;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.signup {
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-image: url(content/masthead.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.button-1 {
+  background: #308dff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.bottomsignup {
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-image: url(content/masthead.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fa-desktop{
+  font-size: 50px;
+  color: #308dff;
+  margin-top: 50px;
+}
+.fa-layer-group{
+  font-size: 50px;
+  color: #308dff;
+  margin-top: 50px;
+}
+.fa-check-circle{
+  font-size: 50px;
+  color: #308dff;
+  margin-top: 50px;
+}
+.showcase{
+  background: white;
+}
+
+.one {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+}
+.three {
+  display: flex;
+  flex-direction: row-reverse;
+}
+ .txt {
+   width: 100%;
+
+ }
+.fullyimg {
+  width: 100%;
+  background-image: url(content/bg-showcase-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.updatedimg {
+  width: 100%;;
+  background-image: url(content/bg-showcase-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.customimg {
+  width: 100%;
+  background-image: url(content/bg-showcase-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  text-align: center;
+  padding: 0px;
+  padding-top: 20px;
+}
+.people {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 0px;
+text-align: center;
+}
+.person {
+  margin: 50px;
+}
+.Marimg {
+  height: 200px;
+  width: 200px;
+  background-image: url(content/testimonials-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.Freimg {
+  height: 200px;
+  width: 200px;
+  background-image: url(content/testimonials-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.Serimg {
+  height: 200px;
+  width: 200px;
+  background-image: url(content/testimonials-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+a {
+  color: #308dff;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  color: #308dff;
+  font-size: 20px;
+}
+.fab {
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    div  {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+@media screen and (max-width: 900px) {
+    .people  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
